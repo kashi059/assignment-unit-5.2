@@ -3,10 +3,33 @@
   <head>
     <meta charset="utf-8">
     <title>Unit 5, Part 2 - HTML/CSS Practice</title>
+    <link rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
-    <h1>Unit 5, Part 2 - HTML/CSS Practice</h1>
-    <p>Look at my cool music page.</p>
+    <header element id = header>
+      <h1>Unit 5, Part 2 - HTML/CSS Practice</h1>
+      <h3>Welcome to...</h3>
+      <h2>Jazzy Joes</h2>
+    </header>
+      <img src="Group_1.png" alt="trumpets and such">
+    
+
+    <main>
+      <p>Look at my cool music page.</p>
+    </main>
+    <div class="gradient-overlay"></div>
+    
     <!-- Create an unordered list with any questions you have -->
+  <ul>
+    <li>"what kind of music do you like?"</li>
+    <li>"here we specialize in Jazz, but carry a variety of similar options as well"</li>
+
+
+  </ul>
+  <img src="Albums.png" alt="Placeholder Albums">    
+  <script>
+    const overlay = document.querySelector('.gradient-overlay');
+    overlay.style.opacity = '0.6'; // Set opacity (0.0 to 1.0)
+  </script>
   </body>
 </html>
